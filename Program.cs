@@ -18,7 +18,7 @@ namespace EXAMEN
             while (true)
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("------------------------------------------------------------------");
                 Console.WriteLine("Bienvenido al sistema de gestion de Aeropuertos y Aviones");
                 Console.WriteLine("1. Agregar Avion");
@@ -82,7 +82,6 @@ namespace EXAMEN
                         Console.WriteLine("Opcion no valida, intente de nuevo.");
                         break;
                 }
-
 
             }
         }
